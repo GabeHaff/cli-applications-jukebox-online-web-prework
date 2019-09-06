@@ -22,34 +22,3 @@ end
     puts "#{index + 1 }. #{song}"
 }
 end 
-def run(songs)
-  while true do
-    puts "Please enter a command:"
-    input = gets.chomp
-    case input
-    when "exit"
-      exit_jukebox
-      break
-    when "play"
-      play(songs)
-    when "help"
-      help
-    when "list"
-      list(songs)
-    else
-      puts "Invalid entry"
-    end
-  end
-end
-def play (songs)
- play(songs)
-  puts "Please enter a song name or number:"
-  input = gets.chomp
-  if input.to_i >= [input.to_i-1] && [input.to_i] -1 <= songs.length
-    puts "Playing #{songs[input.to_i-1]}"
-  elsif songs.include?(input)
-    puts "Playing #{songs.find{|song| song == input}}"
-  else
-    puts "Invalid input, please try again"
-  end
-end
