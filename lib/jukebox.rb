@@ -51,7 +51,7 @@ end
       when "play"
         play(songs)
       else
-        puts "Invalid command try again."
+        puts "Invalid command, try again."
     end
   end
 end	
