@@ -22,6 +22,7 @@ end
     puts "#{index + 1 }. #{song}"
 }
 end 
+
 def play(songs)
   puts "Please enter a song name or number:"
   input = gets.strip
