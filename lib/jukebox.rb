@@ -48,7 +48,7 @@ end
         help
       when "exit"
         exit_jukebox
-        puts "exit"
+        p "exit"
         break
       when "list"
         list(songs)
