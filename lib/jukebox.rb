@@ -54,5 +54,5 @@ end
         puts "Invalid command try again."
     end
   end
-end	end
+end	
 help	
