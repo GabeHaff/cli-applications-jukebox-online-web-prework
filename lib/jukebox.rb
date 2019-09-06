@@ -22,6 +22,9 @@ end
     puts "#{index + 1 }. #{song}"
 }
 end 
+def exit_jukebox
+  puts "Goodbye!"
+end
 
 def play(songs)
   puts "Please enter a song name or number:"
@@ -33,9 +36,6 @@ def play(songs)
   else
     puts "Invalid input, please try again"
   end
-end
-def exit_jukebox
-  puts "Goodbye!"
 end
 
  def run(songs)
